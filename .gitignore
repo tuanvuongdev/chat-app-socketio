@@ -1,0 +1,43 @@
+# Node.js / Express backend
+node_modules/
+npm-debug.log*
+yarn-error.log
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+coverage/
+logs/
+*.log
+*.tsbuildinfo
+
+# React.js frontend
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/.env.development
+frontend/.env.production
+frontend/.env.test
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# Ignore system files
+Thumbs.db
+Desktop.ini
+
+# Ignore dependency lock files (optional, if not using version control for dependencies)
+package-lock.json
+yarn.lock
+
+# Ignore deployment files
+dist/
+out/
